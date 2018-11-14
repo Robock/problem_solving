@@ -1,3 +1,10 @@
+#Given a non-finite stream of characters, output an "A" if the characters "xxx" are found in exactly that sequence.  
+#If the characters "xyx" are found instead, output a "B".  
+#Do not re-process characters so as to output both an “A” and a “B” when processing the same input. For example:
+#1. The following input xxyxyxxxyxxx would produce the following output:  BAA
+#2. The following input xxxyxyxxxxyyxyxyx would produce the following output:   ABAB
+
+
 def abba(sample_string):
 
 	three = ''
